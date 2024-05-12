@@ -9,7 +9,7 @@ function numberToWord(n){
 		return "Not a valid Range or Number"
 	}
 	var x = ["zero","one","two","three","four","five","six","seven","eight","nine","ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"];
-    var y = ["","","twenty","thirty","fourty","fifty","sixty","seventy","eighty","ninety"];
+    var y = ["","","twenty","thirty","forty","fifty","sixty","seventy","eighty","ninety"];
     
     var trillion = Math.floor(n/10000000000000);
     n=n-trillion*10000000000000;
